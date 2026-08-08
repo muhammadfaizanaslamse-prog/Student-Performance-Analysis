@@ -1,145 +1,168 @@
 # 🎓 Student Performance Analysis
 
-### Interactive Student Data Analysis & Visualization Project
+### Interactive Student Data Analysis & Visualization Project Built with Python
 
-A complete **Student Performance Analysis** project that explores student academic performance using data cleaning, feature engineering, exploratory data analysis, statistical analysis, and interactive visualizations.
+A complete **Student Performance Analysis** project that explores student academic performance using **Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly, and statistical analysis techniques**.
 
-The project analyzes student scores, identifies relationships between different subjects, compares performance across groups, and generates useful insights from the dataset.
+This project focuses on data cleaning, feature engineering, exploratory data analysis, visualization, and extracting meaningful insights from student performance data.
 
 ---
 
 # 📖 Overview
 
-Student Performance Analysis is a data analysis project developed using **Python**, **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, **Plotly**, and statistical analysis techniques.
+Student Performance Analysis is a data analysis project developed using **Python** and popular data science libraries.
 
 The project uses a student performance dataset containing information about:
 
-- Gender
-- Race/Ethnicity
-- Parental Level of Education
-- Lunch
-- Test Preparation Course
-- Math Score
-- Reading Score
-- Writing Score
+* Gender
+* Race/Ethnicity
+* Parental Level of Education
+* Lunch
+* Test Preparation Course
+* Math Score
+* Reading Score
+* Writing Score
 
-The main objective is to understand student performance patterns and discover meaningful relationships within the data.
+The main goal of this project is to understand student performance patterns, compare subject scores, identify relationships between variables, and generate useful insights from the dataset.
 
 ---
 
 # ✨ Features
 
-### 📊 Data Analysis
+## 📊 Data Analysis
 
-- Dataset exploration
-- Statistical summaries
-- Score analysis
-- Subject comparison
-- Gender-based analysis
-- Performance analysis
+* Explore student performance data
+* Generate statistical summaries
+* Analyze subject scores
+* Compare student performance
+* Analyze performance by gender
+* Identify relationships between variables
 
-### 🧹 Data Cleaning
+---
 
-- Remove duplicate records
-- Handle missing values
-- Standardize column names
-- Remove unnecessary spaces
-- Prepare data for analysis
+## 🧹 Data Cleaning
 
-### ⚙️ Feature Engineering
+* Remove duplicate records
+* Handle missing values
+* Standardize column names
+* Remove unnecessary spaces
+* Prepare data for analysis
 
-- Calculate total score
-- Calculate average score
-- Create performance levels
-- Generate additional useful features
+---
 
-### 📈 Data Visualization
+## ⚙️ Feature Engineering
 
-- Score distribution
-- Gender distribution
-- Subject comparison
-- Scatter plots
-- Box plots
-- Correlation heatmap
-- Performance-level visualization
+* Calculate total score
+* Calculate average score
+* Create performance levels
+* Generate additional analytical features
 
-### 💡 Insights
+---
 
-The project identifies important patterns and relationships in student performance data.
+## 📈 Data Visualization
+
+* Average score distribution
+* Gender distribution
+* Subject comparison
+* Scatter plots
+* Box plots
+* Correlation heatmap
+* Performance-level visualization
 
 ---
 
 # 🖥️ Project Dashboard
 
-The project includes an interactive dashboard for exploring the student performance dataset.
+The project includes a dashboard for exploring the student performance data and visualizing important analysis results.
 
-![Student Performance Dashboard](images/dashboard.png)
+![Student Performance Dashboard](images/dashboard.jpg)
 
 ---
 
 # 📊 Visualizations
 
-The project contains several visualizations generated during the analysis.
+## 📈 Average Score Distribution
 
-### 📈 Score Distribution
+![Average Score Distribution](images/average_score_distribution.png)
 
-Shows the distribution of student scores and helps identify the overall performance pattern.
+Shows the distribution of students' overall average scores.
 
-### 👥 Gender Distribution
+---
 
-Shows the number of students in each gender category.
+## 👥 Gender Distribution
 
-### 📚 Subject Comparison
+![Gender Distribution](images/gender_distribution.png)
+
+Shows the number of students across different gender categories.
+
+---
+
+## 📚 Subject Comparison
+
+![Subject Comparison](images/subject_comparison.png)
 
 Compares student performance across:
 
-- Mathematics
-- Reading
-- Writing
+* Mathematics
+* Reading
+* Writing
 
-### 🔥 Correlation Heatmap
+---
 
-Shows relationships between numerical variables and identifies strongly correlated features.
+## 🔥 Correlation Heatmap
 
-### 📊 Performance Levels
+![Correlation Heatmap](images/correlation_heatmap.png)
 
-Students are grouped according to their overall academic performance.
+Shows relationships between numerical variables and helps identify strongly correlated features.
+
+---
+
+## 🏆 Performance Levels
+
+![Performance Levels](images/performance_levels.png)
+
+Groups students according to their overall academic performance.
 
 ---
 
 # 📂 Project Structure
 
 ```text
-Student_Performance_Analysis/
+Student-Performance-Analysis/
 │
-├── 📁 data/
-│   └── StudentsPerformance.csv
+├── data/
+│   └── StudentPerformance.csv
 │
-├── 📁 images/
-│   ├── dashboard.png
+├── images/
+│   ├── dashboard.jpg
 │   ├── average_score_distribution.png
 │   ├── correlation_heatmap.png
 │   ├── gender_distribution.png
 │   ├── performance_levels.png
 │   └── subject_comparison.png
 │
-├── 📁 notebooks/
+├── notebooks/
 │   └── analysis.ipynb
 │
-├── 📁 reports/
+├── reports/
 │
-├── 📁 src/
+├── src/
 │   ├── app.py
 │   ├── clean_data.py
 │   ├── feature_engineering.py
 │   ├── load_data.py
 │   └── visualization.py
 │
+├── .gitignore
 ├── requirements.txt
-│
 └── README.md
+```
 
-🔄 Data Analysis Workflow
+---
+
+# 🔄 Data Analysis Workflow
+
+```text
 Raw Dataset
      │
      ▼
@@ -165,155 +188,201 @@ Insights & Findings
      │
      ▼
 Interactive Dashboard
+```
 
-🛠️ Technologies Used
-Technology	Purpose
-Python	Programming
-Pandas	Data Manipulation
-NumPy	Numerical Computing
-Matplotlib	Visualization
-Seaborn	Statistical Visualization
-Plotly	Interactive Visualization
-Statsmodels	Statistical Analysis
-Jupyter Notebook	Data Analysis
-VS Code	Development
-📊 Dataset
+---
 
-The project uses the Students Performance Dataset.
+# 🛠️ Technologies Used
 
-The dataset contains:
+| Category                  | Technology         |
+| ------------------------- | ------------------ |
+| Programming Language      | Python             |
+| Data Manipulation         | Pandas             |
+| Numerical Computing       | NumPy              |
+| Visualization             | Matplotlib         |
+| Statistical Visualization | Seaborn            |
+| Interactive Visualization | Plotly             |
+| Statistical Analysis      | Statsmodels        |
+| Data Analysis             | Jupyter Notebook   |
+| Development Environment   | Visual Studio Code |
 
-Feature	Description
-Gender	Student gender
-Race/Ethnicity	Student group
-Parental Education	Parent's education level
-Lunch	Lunch program type
-Test Preparation	Test preparation status
-Math Score	Mathematics score
-Reading Score	Reading score
-Writing Score	Writing score
-Dataset Size
-Original Records: 1000
-Features: 8
+---
 
-After removing duplicate records:
+# 📊 Dataset
 
-Records: 999
-🧹 Data Cleaning
+The project uses the **Students Performance Dataset**.
 
-The dataset was cleaned before performing analysis.
+The dataset contains information about students and their academic performance.
 
-The cleaning process includes:
+## Dataset Features
 
-1. Remove Duplicates
+| Feature            | Description              |
+| ------------------ | ------------------------ |
+| Gender             | Student gender           |
+| Race/Ethnicity     | Student group            |
+| Parental Education | Parent's education level |
+| Lunch              | Lunch program type       |
+| Test Preparation   | Test preparation status  |
+| Math Score         | Mathematics score        |
+| Reading Score      | Reading score            |
+| Writing Score      | Writing score            |
+
+### Dataset Size
+
+* **Original Records:** 1,000
+* **Features:** 8
+* **Records After Removing Duplicates:** 999
+
+---
+
+# 🧹 Data Cleaning
+
+The dataset is cleaned before performing analysis.
+
+### 1️⃣ Remove Duplicates
+
+```python
 df = df.drop_duplicates()
-2. Standardize Column Names
+```
+
+### 2️⃣ Standardize Column Names
 
 For example:
 
+```text
 math score
+```
 
 becomes:
 
+```text
 math_score
-3. Remove Extra Spaces
+```
+
+### 3️⃣ Remove Extra Spaces
 
 Text values are cleaned to ensure consistency.
 
-4. Handle Missing Values
+### 4️⃣ Handle Missing Values
 
-Missing records are removed before analysis.
+Missing records are handled before performing the analysis.
 
-⚙️ Feature Engineering
+---
 
-New features were created to make the analysis more meaningful.
+# ⚙️ Feature Engineering
 
-Total Score
+New features are created to make the analysis more meaningful.
 
-Combines:
+## 📚 Total Score
 
-Math Score
-+
-Reading Score
-+
-Writing Score
-Average Score
+The total score combines:
 
-Calculates the student's overall average performance.
+```text
+Math Score + Reading Score + Writing Score
+```
 
-Performance Level
+## 📊 Average Score
 
-Students are categorized according to their overall scores.
+The average score represents the student's overall academic performance.
 
-🔍 Exploratory Data Analysis
+```text
+Total Score / 3
+```
 
-The analysis explores questions such as:
+## 🏆 Performance Level
 
-What is the average student score?
-Which subject has the highest average score?
-How does performance differ by gender?
-How strongly are reading and writing scores related?
-Which students are high performers?
-How are scores distributed?
-Which variables have strong correlations?
-💡 Key Insights
+Students are categorized according to their overall performance.
 
-The analysis provides insights such as:
+---
 
-📚 Reading and writing scores have a strong positive relationship.
-📊 Student scores are concentrated around the middle-to-high score range.
-👩‍🎓 Performance varies slightly between different student groups.
-🏆 Students with consistently high scores across subjects are high performers.
-🔗 Academic subjects show strong relationships with each other.
-🎯 Learning Objectives
+# 🔍 Exploratory Data Analysis
+
+The project explores questions such as:
+
+* What is the average student score?
+* Which subject has the highest average score?
+* How does performance differ by gender?
+* How strongly are reading and writing scores related?
+* Which students are high performers?
+* How are scores distributed?
+* Which variables have strong correlations?
+
+---
+
+# 💡 Key Insights
+
+The analysis identifies several important patterns:
+
+* 📚 Reading and writing scores have a strong positive relationship.
+* 📊 Student scores are concentrated around the middle-to-high score range.
+* 👩‍🎓 Performance varies across different student groups.
+* 🏆 Students with consistently high scores across subjects are high performers.
+* 🔗 Academic subjects show strong relationships with each other.
+
+---
+
+# 🎯 Learning Objectives
 
 Through this project, I learned:
 
-Working with real-world datasets
-Loading CSV files
-Data cleaning
-Data preprocessing
-Handling duplicates
-Handling missing values
-Feature engineering
-Exploratory Data Analysis
-Statistical analysis
-Data visualization
-Correlation analysis
-Interactive dashboards
-Python project organization
-Writing reusable Python modules
-📚 Skills Demonstrated
-Python
-Functions
-Modules
-File handling
-Virtual environments
-Project organization
-Pandas
-read_csv()
-head()
-tail()
-shape
-columns
-dtypes
-isnull()
-dropna()
-drop_duplicates()
-value_counts()
-groupby()
-DataFrame filtering
-Visualization
-Histograms
-Bar charts
-Scatter plots
-Box plots
-Heatmaps
-Interactive charts
-🏗️ Project Architecture
+* Working with real-world datasets
+* Loading CSV files
+* Data cleaning
+* Data preprocessing
+* Handling duplicates
+* Handling missing values
+* Feature engineering
+* Exploratory Data Analysis
+* Statistical analysis
+* Data visualization
+* Correlation analysis
+* Creating interactive dashboards
+* Python project organization
+* Writing reusable Python modules
 
-The project is divided into multiple modules for better organization.
+---
 
+# 📚 Skills Demonstrated
+
+## 🐍 Python
+
+* Functions
+* Modules
+* File handling
+* Virtual environments
+* Project organization
+
+## 🐼 Pandas
+
+* `read_csv()`
+* `head()`
+* `tail()`
+* `shape`
+* `columns`
+* `dtypes`
+* `isnull()`
+* `dropna()`
+* `drop_duplicates()`
+* `value_counts()`
+* `groupby()`
+* DataFrame filtering
+
+## 📊 Visualization
+
+* Histograms
+* Bar charts
+* Scatter plots
+* Box plots
+* Heatmaps
+* Interactive charts
+
+---
+
+# 🏗️ Project Architecture
+
+The project is organized into multiple Python modules.
+
+```text
 load_data.py
       │
       ▼
@@ -330,54 +399,128 @@ app.py
       │
       ▼
 Interactive Dashboard
+```
 
-This modular structure makes the project easier to maintain and extend.
+### Module Description
 
-🚀 Future Improvements
+| File                     | Purpose                          |
+| ------------------------ | -------------------------------- |
+| `load_data.py`           | Loads the dataset                |
+| `clean_data.py`          | Cleans and preprocesses the data |
+| `feature_engineering.py` | Creates additional features      |
+| `visualization.py`       | Generates data visualizations    |
+| `app.py`                 | Runs the application/dashboard   |
+
+---
+
+# 🚀 Quick Start
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/Student-Performance-Analysis.git
+```
+
+## 2️⃣ Navigate to the Project Folder
+
+```bash
+cd Student-Performance-Analysis
+```
+
+## 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4️⃣ Run the Project
+
+```bash
+python src/app.py
+```
+
+---
+
+# ⚙️ Requirements
+
+* Python 3.10+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Plotly
+* Statsmodels
+
+Install the required packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# 🚀 Future Improvements
 
 Future versions of this project can include:
 
-🤖 Machine Learning prediction
-📈 Student score prediction
-🎯 Grade prediction
-🧠 High-performance classification
-🌳 Random Forest model
-📊 More advanced visualizations
-🔍 Advanced statistical analysis
-🤖 AI-generated insights
-📱 Improved responsive interface
-🤝 Contributing
+* 🤖 Machine Learning prediction
+* 📈 Student score prediction
+* 🎯 Grade prediction
+* 🧠 Student performance classification
+* 🌳 Random Forest model
+* 📊 Advanced visualizations
+* 🔍 Advanced statistical analysis
+* 🤖 AI-generated insights
+* 📱 Improved responsive dashboard
+
+---
+
+# 🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome.
 
-To contribute:
+If you'd like to improve this project:
 
-Fork the repository
-Create a new branch
-Make your changes
-Commit your changes
-Push your changes
-Open a Pull Request
-👨‍💻 Author
-Muhammad Faizan Aslam
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Commit your changes
+5. Push your changes
+6. Open a Pull Request
 
-Software Engineering Student
+---
 
-💻 Python Developer
-📊 Data Science & Machine Learning Learner
-🤖 AI Enthusiast
-👁️ Computer Vision Learner
+# 👨‍💻 Author
 
-⭐ Support
+## Muhammad Faizan Aslam
+
+**Software Engineering Student**
+
+* 💻 Python Developer
+* 📊 Data Science & Machine Learning Learner
+* 🤖 AI Enthusiast
+* 👁️ Computer Vision Learner
+
+---
+
+# ⭐ Support
 
 If you found this project useful:
 
-⭐ Star the repository
+⭐ **Star this repository**
 
-🍴 Fork the repository
+🍴 **Fork the repository**
 
-💡 Share your feedback
+💡 **Share your feedback**
 
-📄 License
+---
 
-This project is licensed under the MIT License.
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🚀 Part of My Data Science & Machine Learning Learning Journey
+
+### Made with ❤️ using Python, Pandas & Data Visualization
